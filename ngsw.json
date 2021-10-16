@@ -1,0 +1,109 @@
+{
+  "configVersion": 1,
+  "timestamp": 1634416232614,
+  "index": "https://garoqui.github.io/pipati/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://garoqui.github.io/pipati/favicon.ico",
+        "https://garoqui.github.io/pipati/index.html",
+        "https://garoqui.github.io/pipati/main.91157d14dc4e12258953.js",
+        "https://garoqui.github.io/pipati/manifest.webmanifest",
+        "https://garoqui.github.io/pipati/polyfills.32cfad00d3de6e1a50a3.js",
+        "https://garoqui.github.io/pipati/runtime.d3b68de8b287b8063fcf.js",
+        "https://garoqui.github.io/pipati/styles.31d6cfe0d16ae931b73c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://garoqui.github.io/pipati/assets/alllogo.png",
+        "https://garoqui.github.io/pipati/assets/go.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-128x128.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-144x144.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-152x152.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-192x192.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-384x384.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-512x512.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-72x72.png",
+        "https://garoqui.github.io/pipati/assets/icons/icon-96x96.png",
+        "https://garoqui.github.io/pipati/assets/logo.png",
+        "https://garoqui.github.io/pipati/assets/myicons/button.png",
+        "https://garoqui.github.io/pipati/assets/myicons/no.png",
+        "https://garoqui.github.io/pipati/assets/myicons/paper.png",
+        "https://garoqui.github.io/pipati/assets/myicons/papergame.png",
+        "https://garoqui.github.io/pipati/assets/myicons/question.png",
+        "https://garoqui.github.io/pipati/assets/myicons/rock.png",
+        "https://garoqui.github.io/pipati/assets/myicons/rockgame.png",
+        "https://garoqui.github.io/pipati/assets/myicons/siccsors.png",
+        "https://garoqui.github.io/pipati/assets/myicons/siccsorsgame.png",
+        "https://garoqui.github.io/pipati/assets/myicons/tryagain.png",
+        "https://garoqui.github.io/pipati/assets/myicons/yes.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://garoqui.github.io/pipati/assets/alllogo.png": "e8b876d7d4024c06937341f0d974c7937420e4e1",
+    "https://garoqui.github.io/pipati/assets/go.png": "80615077f4952b63a4397d67ff809046e2337ec4",
+    "https://garoqui.github.io/pipati/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://garoqui.github.io/pipati/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://garoqui.github.io/pipati/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://garoqui.github.io/pipati/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://garoqui.github.io/pipati/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://garoqui.github.io/pipati/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://garoqui.github.io/pipati/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://garoqui.github.io/pipati/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://garoqui.github.io/pipati/assets/logo.png": "aeeadae5ab0f2de5c3294e552697f5bc2f8fcb3a",
+    "https://garoqui.github.io/pipati/assets/myicons/button.png": "e6fcb30dd95afe50fd58bc094c390bc5e6987e26",
+    "https://garoqui.github.io/pipati/assets/myicons/no.png": "d64e34c464d1a0f396d4b87aea04b22364cac686",
+    "https://garoqui.github.io/pipati/assets/myicons/paper.png": "23c5ad6d38e98e2f9af4ee2048638a396ed37e29",
+    "https://garoqui.github.io/pipati/assets/myicons/papergame.png": "c01657cacd9a31bacb66f6194b54d54d84d1052b",
+    "https://garoqui.github.io/pipati/assets/myicons/question.png": "0eb75e6124c8870709e505a03fcbdc56f31f801d",
+    "https://garoqui.github.io/pipati/assets/myicons/rock.png": "4f12cfaa76105d6ddaa85708b4657f802f777f57",
+    "https://garoqui.github.io/pipati/assets/myicons/rockgame.png": "49fccaef965a2b4bd1f32332a1e306c6713c63c4",
+    "https://garoqui.github.io/pipati/assets/myicons/siccsors.png": "91c73c27ab71c9e268e91568af64810b8e100bae",
+    "https://garoqui.github.io/pipati/assets/myicons/siccsorsgame.png": "631f46691d71d4c8b0b4bc9b658bf24e422fe5b0",
+    "https://garoqui.github.io/pipati/assets/myicons/tryagain.png": "e998491bf5d5fc2b00df3291d26158902d605e08",
+    "https://garoqui.github.io/pipati/assets/myicons/yes.png": "26c23d24285a4b20fea067e6b21d295c72719e4d",
+    "https://garoqui.github.io/pipati/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://garoqui.github.io/pipati/index.html": "f54319cf3389ad5d1f72753ee7dcb4f7fa49131b",
+    "https://garoqui.github.io/pipati/main.91157d14dc4e12258953.js": "4484998ea13bc8182e18e1a32cf04eeb011b9c5f",
+    "https://garoqui.github.io/pipati/manifest.webmanifest": "27a271aeca0591d2de9e17ca0977332a0e8fc66f",
+    "https://garoqui.github.io/pipati/polyfills.32cfad00d3de6e1a50a3.js": "8a4640459d5808070bac5c238f218d1b1cff6502",
+    "https://garoqui.github.io/pipati/runtime.d3b68de8b287b8063fcf.js": "c29370f7dee353c7c713068164b829f090c545e4",
+    "https://garoqui.github.io/pipati/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
