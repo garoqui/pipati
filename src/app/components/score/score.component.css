@@ -1,0 +1,13 @@
+.container-gameset-score{
+    background-color: rebeccapurple;    
+    height:10%;
+    box-shadow: 2px 2px 10px #666;    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.player1{
+  margin-left: 2rem;
+  font-size:x-large;
+  color: #fff;  
+}

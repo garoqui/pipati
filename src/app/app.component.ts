@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { createDB } from './db/db';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipati';
+
+  ngOnInit(): void {
+    if (!window.indexedDB) {
+      alert("¡El navegador no es compatible para guardar datos!");
+    }else{
+      createDB()
+    }
+
+  }
 }

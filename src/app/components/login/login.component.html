@@ -1,0 +1,25 @@
+<div class="container-login">
+    <div class="container-login-top">
+        <img src="/assets/alllogo.png">
+    </div>
+
+    <div class="container-login-bottom">
+        <div>
+            <input type="text" [(ngModel)]= "userName" placeholder="Digita tu usuario...">
+        </div>
+
+        <div class="container-login-botton-button" (click)= "onClick()" >
+            <img src="/assets/myicons/button.png">                      
+        </div>
+        
+        
+    </div>
+    <app-modal 
+        [message]= messageModal
+        [modalView] = modalView
+        (closeinLogin)="closeinLogin($event)"
+
+    
+    ></app-modal>
+   
+</div>
