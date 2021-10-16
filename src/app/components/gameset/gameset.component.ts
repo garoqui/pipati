@@ -15,10 +15,10 @@ export class GamesetComponent implements OnInit {
 
   userName: any = "";
   moveshape = "rockgame.png"
-  move = `/assets/myicons/${this.moveshape}`;
+  move = `assets/myicons/${this.moveshape}`;
   countInterval = 0
-  movePlayer1: string = `/assets/myicons/${this.moveshape}`;
-  movePlayer2: string = `/assets/myicons/${this.moveshape}`;
+  movePlayer1: string = `assets/myicons/${this.moveshape}`;
+  movePlayer2: string = `assets/myicons/${this.moveshape}`;
   alert: string = "GO!";
   isFinish = false
   interval: null
@@ -37,7 +37,7 @@ export class GamesetComponent implements OnInit {
     if(!this.isFinish){
       clearInterval(this.moveHand)
     let moveSelected = Object.values(MOVESELECT).filter(res => res === pipati)
-    this.movePlayer1 = `/assets/myicons/${moveSelected}.png`
+    this.movePlayer1 = `assets/myicons/${moveSelected}.png`
     let pipati2 = this.movePlayer2.split("/")[3].split(".")[0]
     this.checkWinner(pipati, pipati2)
     this.showTryAgain()
@@ -48,8 +48,8 @@ export class GamesetComponent implements OnInit {
   //showing hands moving
   moveHand = setInterval(() => {
     this.countInterval === 3 ? this.countInterval = 0 : false
-    this.movePlayer1 = `/assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
-    this.movePlayer2 = `/assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
+    this.movePlayer1 = `assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
+    this.movePlayer2 = `assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
     this.countInterval = this.countInterval + 1
   }, 200)
 
@@ -74,8 +74,8 @@ export class GamesetComponent implements OnInit {
     if (this.isFinish) {
       const interval = setInterval(() => {
         this.countInterval === 3 ? this.countInterval = 0 : false
-        this.movePlayer1 = `/assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
-        this.movePlayer2 = `/assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
+        this.movePlayer1 = `assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
+        this.movePlayer2 = `assets/myicons/${MOVEMENTS[this.countInterval].name}.png`
         this.countInterval = this.countInterval + 1
       }, 200)
       this.moveHand = interval
