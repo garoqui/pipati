@@ -38,7 +38,7 @@ export class GamesetComponent implements OnInit {
       clearInterval(this.moveHand)
     let moveSelected = Object.values(MOVESELECT).filter(res => res === pipati)
     this.movePlayer1 = `assets/myicons/${moveSelected}.png`
-    let pipati2 = this.movePlayer2.split("/")[3].split(".")[0]
+    let pipati2 = this.movePlayer2.split("/")[2].split(".")[0]
     this.checkWinner(pipati, pipati2)
     this.showTryAgain()
     }    
