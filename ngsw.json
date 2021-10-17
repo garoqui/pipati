@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634480519518,
+  "timestamp": 1634480921348,
   "index": "https://garoqui.github.io/pipati/index.html",
   "assetGroups": [
     {
@@ -59,14 +59,14 @@
   "hashTable": {
     "https://garoqui.github.io/pipati/assets/alllogo.png": "e8b876d7d4024c06937341f0d974c7937420e4e1",
     "https://garoqui.github.io/pipati/assets/go.png": "80615077f4952b63a4397d67ff809046e2337ec4",
-    "https://garoqui.github.io/pipati/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://garoqui.github.io/pipati/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://garoqui.github.io/pipati/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://garoqui.github.io/pipati/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://garoqui.github.io/pipati/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://garoqui.github.io/pipati/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://garoqui.github.io/pipati/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://garoqui.github.io/pipati/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://garoqui.github.io/pipati/assets/icons/icon-128x128.png": "37c032a4a50a7d4c4f72979c522e4fa783c1fe48",
+    "https://garoqui.github.io/pipati/assets/icons/icon-144x144.png": "056c1225e895282611af42b8518ff5ca555e4db6",
+    "https://garoqui.github.io/pipati/assets/icons/icon-152x152.png": "395560828e5ef2832fae3a385fd26369b3563434",
+    "https://garoqui.github.io/pipati/assets/icons/icon-192x192.png": "afda1bea3af74ba703133f41286ec0d2e74189d2",
+    "https://garoqui.github.io/pipati/assets/icons/icon-384x384.png": "df52f860e91c3c8b69638b0519bd621715b52894",
+    "https://garoqui.github.io/pipati/assets/icons/icon-512x512.png": "659f39bbc42277c203a0aaa3d96eb3bb3f64bc9a",
+    "https://garoqui.github.io/pipati/assets/icons/icon-72x72.png": "f684604212b1f9c8f358256819215296bb26eba6",
+    "https://garoqui.github.io/pipati/assets/icons/icon-96x96.png": "1783e2c76fa405eddfbc853be72303fbec52fd6c",
     "https://garoqui.github.io/pipati/assets/logo.png": "aeeadae5ab0f2de5c3294e552697f5bc2f8fcb3a",
     "https://garoqui.github.io/pipati/assets/myicons/button.png": "e6fcb30dd95afe50fd58bc094c390bc5e6987e26",
     "https://garoqui.github.io/pipati/assets/myicons/no.png": "d64e34c464d1a0f396d4b87aea04b22364cac686",
