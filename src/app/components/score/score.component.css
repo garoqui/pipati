@@ -9,5 +9,27 @@
 .player1{
   margin-left: 2rem;
   font-size:x-large;
-  color: #fff;  
+  color: #fff; 
+  height: 80%; 
+}
+
+.menu{
+  text-align: right;
+  margin-right: 10px;  
+  display: flex;
+  height: 70%;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  flex-direction: row-reverse;
+}
+
+.menu div{
+  padding-left: 10px;
+  height: 70%;
+  cursor: pointer;
+}
+
+.menu > div > img{
+  height: 100%;
+  
 }

@@ -1,0 +1,44 @@
+.container-help{
+    display: flex;
+    top:0;
+    height: 100vh;
+    left: 0;
+    padding: 5px;
+    align-items: center;
+    
+    
+}
+
+.container-help-img {
+    height: 100%;
+}
+
+.container-help-text {
+    height: 100%;    
+}
+
+.container-help-text > p {
+    font-size: larger;   
+}
+
+.container-help-img > img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width:480px) {
+    .container-help{
+        flex-direction: column;
+    }
+
+    .container-help-img {
+        height: 30%;
+    }
+    
+    .container-help-text {
+        height: 70%;    
+    }
+    
+}

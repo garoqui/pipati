@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { ModalComponent } from './components/modal/modal.component';
 import { GamesetComponent } from './components/gameset/gameset.component';
 import { ScoreComponent } from './components/score/score.component';
+import { HelpComponent } from './components/help/help.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ScoreComponent } from './components/score/score.component';
     ModalComponent,
     GamesetComponent,
     ScoreComponent,
+    HelpComponent,
     
   ],
   imports: [
