@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
+## Data Persistence
+
+The app use IndexDB databa in order to save records abouts the users.
+
+## Web Site
+
+The website building is available in https://garoqui.github.io/pipati/
+
+## Clone Repository
+
+1. write git clone https://github.com/garoqui/pipati.git in the powershell or terminal
+2. write npm i on terminal
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
