@@ -1,8 +1,4 @@
 <div class="container-gameset">
-  <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
-    <img src="assets/myicons/tryagain.png" />
-  </div>
-
   <app-score [userName]="userName" [score]="score"></app-score>
 
   <div class="container-gameset-board">
@@ -20,16 +16,20 @@
   </div>
 
   <div class="container-gameset-controls">
-    <div (click)="onClick('rockgame')">
+    <div *ngIf="!isFinish" class="control" (click)="onClick('rockgame')">
       <img src="assets/myicons/rock.png" />
     </div>
 
-    <div (click)="onClick('siccsorsgame')">
+    <div *ngIf="!isFinish" class="control" (click)="onClick('siccsorsgame')">
       <img src="assets/myicons/siccsors.png" />
     </div>
 
-    <div (click)="onClick('papergame')">
+    <div *ngIf="!isFinish" class="control" (click)="onClick('papergame')">
       <img src="assets/myicons/paper.png" />
+    </div>
+
+    <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
+      <img src="assets/myicons/tryagain.png" />
     </div>
   </div>
 </div>

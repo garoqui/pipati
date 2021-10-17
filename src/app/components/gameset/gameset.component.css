@@ -37,15 +37,15 @@
 
 .container-gameset-controls {
   box-shadow: 2px 2px 10px #666;
-  display: grid;
+  display: flex;
   height: 30%;
-  grid-template-columns: 30% 30% 30%;
-  justify-content: space-between;
+  /* grid-template-columns: 30% 30% 30%; */
+  justify-content: center;
   background-color: #d0dfff;
   filter: brightness(95%);
 }
 
-.container-gameset-controls > div {
+.control {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-.container-gameset-controls > div > img {
+.control > img {
   width: 60%;
 }
 
@@ -67,16 +67,30 @@
   animation: changeColor 4s linear infinite;
 }
 
-.container-try-again {
+.alert-button {
   position: absolute;
-  top: 400px;
   display: fixed;
-  left: 40%;
+  top: 10px;
+  width: 70%;
+  padding: 10px;
+  left: 15%;
+}
+
+.alert-button img {
+  width: 80%;
+}
+
+.container-try-again {
+  width: 100%;
+  display: flex;
+  align-content: center;
   cursor: pointer;
+  justify-content: center;
 }
 
 .container-try-again img {
   width: 50%;
+  height: auto;
 }
 
 @keyframes changeColor {
@@ -125,7 +139,7 @@
   }
 }
 
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   .container-try-again {
     top: 270px;
   }
@@ -147,21 +161,17 @@
   .container-try-again {
     top: 320px;
   }
-}
+} */
 
 @media only screen and (max-width: 480px) {
-  .container-gameset-controls > div {
+  .control {
     padding: 0.1rem;
   }
-  .container-gameset-controls > div > img {
+  .control > img {
     width: 100%;
   }
 
   .alert-msg {
     left: 30%;
-  }
-
-  .container-try-again {
-    top: 400px;
   }
 }

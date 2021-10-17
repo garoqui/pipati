@@ -1,6 +1,6 @@
 .container-login-top > img {
   max-width: 50%;
-  height: auto;
+  height: 100%;
 }
 
 input {
@@ -19,7 +19,8 @@ input {
 }
 
 .container-login > div {
-  height: 50%;
+  height: 48%;
+  margin-top: 2rem;
 }
 
 .container-login-top {
