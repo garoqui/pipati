@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
   userName : string = ""
   messageModal = "El usuario no existe, deseas agregarlo?"
   modalView : boolean
+  image = "assets/alllogo.png"
 
   constructor( private usersService : UsersService, private router: Router) {
     this.modalView = false

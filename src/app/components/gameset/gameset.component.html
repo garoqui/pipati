@@ -1,4 +1,8 @@
 <div class="container-gameset">
+    <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
+        <img src="assets/myicons/tryagain.png">        
+    </div>
+
    <app-score
     [userName]  = userName
     [score] = score
@@ -15,11 +19,7 @@
 
         <div class="player2">
             <img src={{movePlayer2}}>
-        </div>
-
-         <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
-        <img src="assets/myicons/tryagain.png">
-    </div>
+        </div>        
 
     </div>
 

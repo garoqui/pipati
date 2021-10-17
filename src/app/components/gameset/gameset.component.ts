@@ -21,7 +21,6 @@ export class GamesetComponent implements OnInit {
   movePlayer2: string = `assets/myicons/${this.moveshape}`;
   alert: string = "GO!";
   isFinish = false
-  interval: null
   score: string = ""
 
   constructor(private route: ActivatedRoute, private router: Router, private userService: UsersService) { }
@@ -98,6 +97,7 @@ export class GamesetComponent implements OnInit {
       case "LOSE!":
         user.points = Number(user.points) - 10
         await this.userService.updateUser(user)
+        window.navigator.vibrate(200);
         break;
 
       default:
