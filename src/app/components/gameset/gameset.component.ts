@@ -27,7 +27,7 @@ export class GamesetComponent implements OnInit {
 
   ngOnInit(): void {
     this.userName = this.route.snapshot.paramMap.get("id");
-    this.getUser()
+    this.checkUser()    
     this.moveHand
   }
 
@@ -113,6 +113,11 @@ export class GamesetComponent implements OnInit {
     user = await this.userService.getUser(this.userName).then((res: UserModel) => res)
     this.score = user.points.toString()
     return user
+  }
+
+  checkUser = async()=>{
+    const check = await this.getUser().then(res => res).catch(err=>err)     
+    check.nickname  ? console.log("yes") : this.router.navigate(["/"])
   }
 
 

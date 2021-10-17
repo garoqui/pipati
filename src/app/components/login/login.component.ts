@@ -43,12 +43,11 @@ export class LoginComponent implements OnInit {
 
   closeinLogin(response : any) {
     response.length ? this.modalView = false : this.modalView = true;
-    console.log(response) 
     response === "createUser" ? this.createUser()  : false;  
    }
 
    openGameSet = ()=>{
       this.router.navigate(['/gameset', this.userName]);
-   }
+   } 
 
 }
