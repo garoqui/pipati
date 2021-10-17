@@ -1,16 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GamesetComponent } from './gameset.component';
+import { GamesetComponent } from "./gameset.component";
 
-describe('GamesetComponent', () => {
+describe("GamesetComponent", () => {
   let component: GamesetComponent;
   let fixture: ComponentFixture<GamesetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GamesetComponent ]
-    })
-    .compileComponents();
+      declarations: [GamesetComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -18,6 +17,4 @@ describe('GamesetComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
-  
 });

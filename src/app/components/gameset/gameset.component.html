@@ -1,44 +1,35 @@
 <div class="container-gameset">
-    <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
-        <img src="assets/myicons/tryagain.png">        
+  <div *ngIf="isFinish" (click)="runAgain()" class="container-try-again">
+    <img src="assets/myicons/tryagain.png" />
+  </div>
+
+  <app-score [userName]="userName" [score]="score"></app-score>
+
+  <div class="container-gameset-board">
+    <div class="alert-msg">
+      {{ alert }}
     </div>
 
-   <app-score
-    [userName]  = userName
-    [score] = score
-   ></app-score>
-    
-    <div class="container-gameset-board">
-        <div class="alert-msg">
-            {{alert}}
-        </div>
-
-        <div class="player1">            
-                <img src={{movePlayer1}}>            
-        </div>
-
-        <div class="player2">
-            <img src={{movePlayer2}}>
-        </div>        
-
+    <div class="player1">
+      <img src="{{ movePlayer1 }}" />
     </div>
 
-    <div class="container-gameset-controls">
-        <div (click)= "onClick('rockgame')">
-            <img src="assets/myicons/rock.png">
-        </div>
+    <div class="player2">
+      <img src="{{ movePlayer2 }}" />
+    </div>
+  </div>
 
-        <div (click)= "onClick('siccsorsgame')">
-            <img src="assets/myicons/siccsors.png">
-        </div>
-
-        <div (click)= "onClick('papergame')">
-            <img src="assets/myicons/paper.png">
-        </div>
-
+  <div class="container-gameset-controls">
+    <div (click)="onClick('rockgame')">
+      <img src="assets/myicons/rock.png" />
     </div>
 
-   
+    <div (click)="onClick('siccsorsgame')">
+      <img src="assets/myicons/siccsors.png" />
+    </div>
 
-
+    <div (click)="onClick('papergame')">
+      <img src="assets/myicons/paper.png" />
+    </div>
+  </div>
 </div>

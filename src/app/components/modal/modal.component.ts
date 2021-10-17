@@ -1,39 +1,43 @@
-import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges,
+} from "@angular/core";
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.component.html',
-  styleUrls: ['./modal.component.css']
+  selector: "app-modal",
+  templateUrl: "./modal.component.html",
+  styleUrls: ["./modal.component.css"],
 })
-export class ModalComponent implements OnInit,  OnChanges {  
+export class ModalComponent implements OnInit, OnChanges {
+  @Input()
+  message: string = "";
 
-  @Input () 
-  message: string = ""
+  @Input()
+  modalView: boolean = false;
 
-  @Input ()
-  modalView : boolean = false
+  @Output() closeinLogin: EventEmitter<string> = new EventEmitter();
 
-  @Output () closeinLogin: EventEmitter<string> = new EventEmitter();
+  showModal = "modal noDisplay";
 
-  showModal = "modal noDisplay"
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
-   
+  ngOnChanges() {
+    this.modalView
+      ? (this.showModal = "modal yesDisplay")
+      : (this.showModal = "modal noDisplay");
   }
 
-  ngOnChanges(){
-    this.modalView ? this.showModal = "modal yesDisplay" : this.showModal = "modal noDisplay"     
-  }
-
-  closeModal = ( value : string)=>{
-    value === "yes" ? this.closeinLogin.emit("createUser") : this.closeinLogin.emit("cancel") ;
-    this.modalView ?  this.showModal = "modal noDisplay" : false
-  }
-
-  
-
-  
-
+  closeModal = (value: string) => {
+    value === "yes"
+      ? this.closeinLogin.emit("createUser")
+      : this.closeinLogin.emit("cancel");
+    this.modalView ? (this.showModal = "modal noDisplay") : false;
+  };
 }

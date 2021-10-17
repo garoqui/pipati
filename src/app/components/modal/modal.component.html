@@ -1,23 +1,23 @@
-<div [ngClass]="showModal" >
-    <div class="modal-container">
-        <div class="grid-container">
-            <div class="img-container">
-                <img src="assets/myicons/question.png">
-            </div>
-            
-            <div class="cuestion-container">
-                <p>{{message}}</p>
-            </div>
-        </div>
+<div [ngClass]="showModal">
+  <div class="modal-container">
+    <div class="grid-container">
+      <div class="img-container">
+        <img src="assets/myicons/question.png" />
+      </div>
 
-        <div class="buttons-container">           
-            <div (click)= "closeModal('yes')">
-                <img src="assets/myicons/yes.png">
-            </div>
-
-            <div  (click)= "closeModal('no')">
-                <img src="assets/myicons/no.png">
-            </div>
-        </div>        
+      <div class="cuestion-container">
+        <p>{{ message }}</p>
+      </div>
     </div>
+
+    <div class="buttons-container">
+      <div (click)="closeModal('yes')">
+        <img src="assets/myicons/yes.png" />
+      </div>
+
+      <div (click)="closeModal('no')">
+        <img src="assets/myicons/no.png" />
+      </div>
+    </div>
+  </div>
 </div>

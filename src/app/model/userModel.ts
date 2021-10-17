@@ -1,4 +1,4 @@
 export interface UserModel {
-    nickname : string;
-    points : number
+  nickname: string;
+  points: number;
 }

@@ -1,22 +1,22 @@
 export const MOVEMENTS = [
-    {
-        name : "rockgame",
-        lostWith : "papergame"
-    },
+  {
+    name: "rockgame",
+    lostWith: "papergame",
+  },
 
-    {
-        name : "papergame",
-        lostWith : "siccsorsgame"
-    },
+  {
+    name: "papergame",
+    lostWith: "siccsorsgame",
+  },
 
-    {
-        name : "siccsorsgame",
-        lostWith : "rockgame"
-    }  
-]
+  {
+    name: "siccsorsgame",
+    lostWith: "rockgame",
+  },
+];
 
-export enum MOVESELECT  {
-    ROCK = "rockgame",
-    PAPER = "papergame",
-    SICCSORS = "siccsorsgame"
+export enum MOVESELECT {
+  ROCK = "rockgame",
+  PAPER = "papergame",
+  SICCSORS = "siccsorsgame",
 }
