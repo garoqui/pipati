@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634496124449,
+  "timestamp": 1634504611511,
   "index": "https://garoqui.github.io/pipati/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://garoqui.github.io/pipati/favicon.ico",
         "https://garoqui.github.io/pipati/index.html",
-        "https://garoqui.github.io/pipati/main.72291d00c37382a1a079.js",
+        "https://garoqui.github.io/pipati/main.e343e548d3b4b76aa8eb.js",
         "https://garoqui.github.io/pipati/manifest.webmanifest",
         "https://garoqui.github.io/pipati/polyfills.32cfad00d3de6e1a50a3.js",
         "https://garoqui.github.io/pipati/runtime.d3b68de8b287b8063fcf.js",
@@ -47,6 +47,7 @@
         "https://garoqui.github.io/pipati/assets/myicons/no.png",
         "https://garoqui.github.io/pipati/assets/myicons/paper.png",
         "https://garoqui.github.io/pipati/assets/myicons/papergame.png",
+        "https://garoqui.github.io/pipati/assets/myicons/play.png",
         "https://garoqui.github.io/pipati/assets/myicons/question.png",
         "https://garoqui.github.io/pipati/assets/myicons/rock.png",
         "https://garoqui.github.io/pipati/assets/myicons/rockgame.png",
@@ -78,6 +79,7 @@
     "https://garoqui.github.io/pipati/assets/myicons/no.png": "d64e34c464d1a0f396d4b87aea04b22364cac686",
     "https://garoqui.github.io/pipati/assets/myicons/paper.png": "23c5ad6d38e98e2f9af4ee2048638a396ed37e29",
     "https://garoqui.github.io/pipati/assets/myicons/papergame.png": "c01657cacd9a31bacb66f6194b54d54d84d1052b",
+    "https://garoqui.github.io/pipati/assets/myicons/play.png": "f08c0447ba66142898eb1663c5bbe8a1cafa8b86",
     "https://garoqui.github.io/pipati/assets/myicons/question.png": "0eb75e6124c8870709e505a03fcbdc56f31f801d",
     "https://garoqui.github.io/pipati/assets/myicons/rock.png": "4f12cfaa76105d6ddaa85708b4657f802f777f57",
     "https://garoqui.github.io/pipati/assets/myicons/rockgame.png": "49fccaef965a2b4bd1f32332a1e306c6713c63c4",
@@ -86,8 +88,8 @@
     "https://garoqui.github.io/pipati/assets/myicons/tryagain.png": "e998491bf5d5fc2b00df3291d26158902d605e08",
     "https://garoqui.github.io/pipati/assets/myicons/yes.png": "26c23d24285a4b20fea067e6b21d295c72719e4d",
     "https://garoqui.github.io/pipati/favicon.ico": "e7c826289545388052db49478d89868247a12051",
-    "https://garoqui.github.io/pipati/index.html": "e29cfc68e78b9ace4a68728669fb458870b6e3b4",
-    "https://garoqui.github.io/pipati/main.72291d00c37382a1a079.js": "8de7c7e30cdf0101bdb90021b9d742e9e6bf27e5",
+    "https://garoqui.github.io/pipati/index.html": "6f564e09fcce3b11da3b38a5512fe27aee773688",
+    "https://garoqui.github.io/pipati/main.e343e548d3b4b76aa8eb.js": "dac5cf283864f902b25eac48c18e03996c433af5",
     "https://garoqui.github.io/pipati/manifest.webmanifest": "592fbbd9ef9b8ce04d763db34e345d0a53d8fae2",
     "https://garoqui.github.io/pipati/polyfills.32cfad00d3de6e1a50a3.js": "8a4640459d5808070bac5c238f218d1b1cff6502",
     "https://garoqui.github.io/pipati/runtime.d3b68de8b287b8063fcf.js": "c29370f7dee353c7c713068164b829f090c545e4",
